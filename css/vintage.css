@@ -1,0 +1,137 @@
+
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:700|Pacifico|Changa+One);
+
+body {
+  background: #ffffff url(https://subtlepatterns.com/patterns/groovepaper.png) repeat;
+  color: #000000;
+}
+
+.container {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  position: relative;  
+  margin: 80px auto;
+  width: 600px;
+  font-size: 30px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.container span {
+  display: block;
+}
+
+.container .line-1 {
+  position: relative;
+}
+
+.container .line-1:before, 
+.container .line-1:after {
+  content: "\\f005";
+  font-family: FontAwesome;
+  position: relative;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  font-size: 16px;  
+  margin: -0 30px;
+  top: -5px;
+}
+
+.container .line-2 {
+  font-family: 'Changa One', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 90px;
+  letter-spacing: 15px;
+  margin: 0 0;  
+}
+
+.container .line-3 {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 70px 0 0;
+  position: relative;
+  letter-spacing: 6px;  
+}
+
+.container .line-3:before,
+.container .line-3:after {
+  content: " ";
+  position: absolute;
+  width: 50px;
+  height: 5px;
+  border-top: 1px solid #222222;
+  border-bottom: 1px solid #222222;  
+}
+
+.container .line-3:before {
+  margin: 7px 0 0 -60px;
+}
+
+.container .line-3:after {
+  margin: 7px 0 0 10px;
+}
+
+.container .line-4 {
+  width: 100%;
+  position: relative;
+  font-size: 18px;
+  margin: 50px 0 0; 
+}
+
+.container .line-5 {
+  margin: 20px 0 50px;
+  position: relative;
+  text-align: center;
+  margin: 50px auto;
+  display: block;
+  font-size: 20px;
+}
+
+.container .line-5 a {
+  text-decoration: none;
+  display: inline-block;
+  text-align: left;
+  color: #222;  
+}
+
+.container .line-5 a:nth-child(1) {
+  text-align: right;
+}
+
+.container .line-5 a:after {
+  content: "\\f005 ";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  position: relative;
+  font-size: 30px;
+  text-align: center;
+  width: 90%;
+  top: 4px;
+  margin: 0;
+  padding: 0 20px;
+}
+
+.container .line-6 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  letter-spacing: 5px;  
+}
+
+.container .line-6:before,
+.container .line-6:after {
+  content: "\\f068";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  position: relative;
+  font-size: 16px;
+  margin: 0 10px;
+  top: 2px;
+}
